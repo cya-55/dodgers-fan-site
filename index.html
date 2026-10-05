@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洛杉磯道奇隊</title>
+    <style>
+        body {
+            margin: 0;
+            color: #243247;
+            background-color: #f2f6fb;
+            font-family: Arial, "Microsoft JhengHei", sans-serif;
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 20px;
+            color: white;
+            text-align: center;
+            background-color: #005a9c;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            width: 90%;
+            max-width: 850px;
+            margin: 25px auto;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 22px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #005a9c;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .map {
+            width: 100%;
+            height: 350px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 16px;
+            color: white;
+            background-color: #005a9c;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        footer {
+            padding: 15px;
+            color: white;
+            text-align: center;
+            background-color: #163b63;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>道奇隊小天地 ⚾</h1>
+        <p>分享我喜歡的棒球球隊：洛杉磯道奇隊</p>
+        <nav>
+            <a href="#about">球隊介紹</a>
+            <a href="#history">小小歷史</a>
+            <a href="#players">球員與球迷</a>
+            <a href="#stadium">球場地圖</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>關於道奇隊</h2>
+            <p>洛杉磯道奇隊是美國職棒大聯盟的一支球隊。球隊最早來自紐約布魯克林，後來搬到洛杉磯。道奇隊的代表色是藍色，主場是道奇體育場。</p>
+            <img src="baseball.jpg" alt="球場上的棒球比賽">
+        </section>
+
+        <section id="history">
+            <h2>幾個重要年份</h2>
+            <ul>
+                <li><strong>1883 年：</strong>球隊在布魯克林成立。</li>
+                <li><strong>1958 年：</strong>球隊搬到洛杉磯，成為洛杉磯道奇隊。</li>
+                <li><strong>1962 年：</strong>道奇體育場啟用，成為球隊的主場。</li>
+            </ul>
+        </section>
+
+        <section id="players">
+            <h2>棒球好玩的地方</h2>
+            <p>我喜歡棒球比賽的團隊合作，也喜歡和朋友一起看球、為喜歡的球隊加油。每一場比賽都有不同的發展，這也是棒球有趣的原因。</p>
+            <p>你也喜歡棒球嗎？可以到道奇隊的官方網站看看球隊消息。</p>
+            <a class="button" href="https://www.mlb.com/dodgers" target="_blank" rel="noopener noreferrer">前往道奇隊官方網站</a>
+        </section>
+
+        <section id="stadium">
+            <h2>道奇體育場位置</h2>
+            <p>道奇體育場位於美國加州洛杉磯。你可以在下方地圖查看球場位置。</p>
+            <iframe
+                class="map"
+                title="道奇體育場 Google 地圖"
+                src="https://www.google.com/maps?q=Dodger+Stadium,+1000+Vin+Scully+Ave,+Los+Angeles,+CA+90012&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen>
+            </iframe>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Dodger+Stadium%2C+Los+Angeles%2C+CA" target="_blank" rel="noopener noreferrer">在 Google 地圖中開啟</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>這是一個棒球主題的練習網站，感謝參觀！</p>
+    </footer>
+</body>
+</html>
